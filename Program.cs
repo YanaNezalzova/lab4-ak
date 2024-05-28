@@ -10,7 +10,6 @@
             foreach (FileInfo file in files)
             {
                 size += file.Length;
-                Console.WriteLine(file);
             }
 
             DirectoryInfo[] dirs = directory.GetDirectories();
